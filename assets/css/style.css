@@ -2,19 +2,32 @@ body{
     font-family: 'Didact Gothic', sans-serif;
 }
 
+.con3{
+    margin: 0%;
+}
+
 .confoot{
-    background-color: rgb(88, 216, 255);
+    background-color:  rgb(28, 11, 66);
     /* height: 300px; */
     margin-top: 50px;
     
     /* padding: 0; */
 }
 
+
+
 .confootlog{
-    background-color: rgb(88, 216, 255);
+    background-color: rgb(28, 11, 66);
     /* height: 300px; */
     margin-top: 150px;
     
+}
+
+.links{
+    padding-top: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
 }
 
 .row1{
@@ -42,9 +55,93 @@ body{
 
 .nav{
     display: flexbox;
+    background-color: rgba(94, 25, 158,0.8);
+    padding-left: 100px;
+    padding-right: 50px;
+    font-size: 20px;
+    
+}
+
+.nav-item{
+    margin-right: 20px;
+}
+
+
+
+/* .colbrand{
+    background-color: brown;
+
+} */
+
+#brand{
+    margin-top: 40px;
+}
+#contact{
+    margin-top: 40px;
 }
 
 /* .col1{
     background-color: blue;
     margin-top: 0%;
 } */
+
+/* .collinks{
+    background-color: brown;
+} */
+
+a:hover{
+    text-decoration: none;
+}
+
+.ul{
+    margin-left: 150px;
+    color: rgb(255, 255, 255);
+    /* text-decoration: none; */
+   
+}
+
+#phone{
+    margin-top: 20px;
+}
+
+.ic{
+    padding-left: 10px;
+}
+
+.colbrand>p{
+    font-size: 20px;
+}
+#adidas{
+    margin-top: 20px;
+}
+
+.img{
+    width: 250px;
+    height: 200px;
+}
+.img2{
+    margin-left: 100px;
+    width: 300px;
+    height: 300px;
+}
+
+.foot{
+    color: rgb(255, 255, 255);
+}
+
+.btnpay{
+    margin-top: 20px;
+}
+
+.cards{
+    height: 600px;
+}
+
+.para{
+    margin-top: 10px;
+}
+
+.shoe-icon{
+    width: 50px;
+    height: 50px;
+}

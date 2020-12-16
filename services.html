@@ -15,46 +15,46 @@
 
 
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">   
+  <nav class="navbar navbar-expand-md navbar-dark sticky-top nav">   
         
 
-        <a  class="navbar-brand" href="index.html">AdShoe</a>
-
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#colNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-
-            <span class="navbar-toggler-icon"></span>
-            
+    <a  class="navbar-brand" href="index.html">
+      <img  class="shoe-icon" src="./assets/images/icon-shoes.png" alt="">
       
-       </button>
-      
+    </a>
 
-        <div class="collapse navbar-collapse" id="colNav">
 
-        <ul class="navbar-nav ">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#colNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
+        <span class="navbar-toggler-icon"></span>
+        
+  
+   </button>
+  
+
+    <div class="collapse navbar-collapse" id="colNav">
+
+       <ul class="navbar-nav ml-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" href="">About Us</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+                
+
+        <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+            </li>
             <li class="nav-item">
-              <a class="nav-link" href="">About Us</a>
+                 <a class="nav-link" href="register.html">Register</a>
              </li>
-             <li class="nav-item">
-                <a class="nav-link" href="services.html">Services</a>
-              </li>
-                      
-           </ul>
-
-           <ul class="navbar-nav ml-auto">
-   
-            <li class="nav-item">
-                        <a class="nav-link" href="login.html">Login</a>
-                </li>
-                <li class="nav-item">
-                     <a class="nav-link" href="register.html">Register</a>
-                 </li>
-                     
-             </ul>
-             </div>
-        
-    </nav> 
+                 
+         </ul>
+         </div>
+    
+</nav> 
 
     <p class="display-4">Shoe Expo</p>
 
@@ -66,14 +66,12 @@
 
     <div class="col-md-4">
 
-      <div class="card">
+      <div class="card cards">
 
-        <img class="card-img-top img-fluid" src="/assets/images/shoe1.jpg" alt="">
+        <img class="card-img-top img-fluid img2" src="/assets/images/shoe1.jpg" alt="">
         <div class="card-body">
           <h5 class="card-title">Sneaker Shoe</h5>
-          <p class="card-text">Lorem ipsun repellendus sit, tenetur quod
-            tione hic ad totam quo sed magni saepe? Quos obcaecati dolor doloribus magnam
-            illo.</p>
+          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime nesciunt illum dolorum sint enim ipsam quod. Earum ipsa, necessitatibus corporis, dolore sapiente, blanditiis laudantium quos illum doloribus sint quasi exercitationem.</p>
           <a href="buy.html" class="btn btn-primary btn-lg">Buy</a>
         </div>
 
@@ -84,9 +82,9 @@
 
      <div class="col-md-4">
 
-        <div class="card">
+        <div class="card cards">
 
-            <img class="card-img-top img-fluid" src="/assets/images/shoe2.jpg" alt="">
+            <img class="card-img-top img-fluid img2" src="/assets/images/shoe2.jpg" alt="">
             <div class="card-body">
                 <h5 class="card-title">Adidas Shoe</h5>
                 <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime nesciunt illum dolorum sint enim ipsam quod. Earum ipsa, necessitatibus corporis, dolore sapiente, blanditiis laudantium quos illum doloribus sint quasi exercitationem.</p>
@@ -99,9 +97,9 @@
 
      <div class="col-md-4">
 
-        <div class="card">
+        <div class="card cards">
 
-            <img class="card-img-top img-fluid" src="/assets/images/shoe3.jpg" alt="">
+            <img class="card-img-top img-fluid img2" src="/assets/images/shoe3.jpg" alt="">
             <div class="card-body">
                 <h5 class="card-title">Adidas Shoe</h5>
                 <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime nesciunt illum dolorum sint enim ipsam quod. Earum ipsa, necessitatibus corporis, dolore sapiente, blanditiis laudantium quos illum doloribus sint quasi exercitationem.</p>
@@ -116,7 +114,7 @@
    
 </div>
 
-<footer class="page-footer font-small blue pt-4">
+<footer class="page-footer font-small blue pt-4 foot">
 
   
   <div class="container-fluid text-center text-md-left confoot">
@@ -125,11 +123,16 @@
     <div class="row row1">
 
       
-      <div class="col-md-4 mt-md-0 mt-3 ">
+      <div class="col-md-4 mt-md-0 mt-3 colbrand text-center">
 
        
-        <h5 class="text-uppercase" >Heading</h5>
-        <p>Here you can use rows and columns to organize your footer content.</p>
+        <h5 class="text-uppercase" id="brand" >Brands</h5>
+        <p id="adidas">Adidas</p>
+        <p>Nike</p>
+        <p>Puma</p>
+        <p>Vans</p>
+        <p>Timber</p>
+      
 
       </div>
       
@@ -137,23 +140,21 @@
       <hr class="clearfix w-100 d-md-none pb-3">
 
       
-      <div class="col-md-4 mb-md-0 mb-3 text-center">
+      <div class="col-md-4 mb-md-0 mb-3 collinks">
 
         
-        <h5 class="text-uppercase">Links</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!">Link 1</a>
+        <ul class="list-unstyled ul">
+          <li class="links">
+            <a href="" class="links">About Us</a>
           </li>
-          <li>
-            <a href="#!">Link 2</a>
+          <li class="links">
+            <a href="services.html" class="links">Services</a>
           </li>
-          <li>
-            <a href="#!">Link 3</a>
+          <li class="links">
+            <a href="login.html" class="links">Login</a>
           </li>
-          <li>
-            <a href="#!">Link 4</a>
+          <li class="links">
+            <a href="register.html" class="links">Register</a>
           </li>
         </ul>
 
@@ -161,25 +162,27 @@
       
 
      
-      <div class="col-md-4 mb-md-0 mb-3 text-center">
+      <div class="col-md-4 mb-md-0 mb-3 text-left">
 
         
-        <h5 class="text-uppercase">Links</h5>
+        <h4 class="text-uppercase" id="contact">Contact Us</h4>
+        <h5 id="phone">Phone Number</h5>
+        <p >0912345678</p>
+        <h5 id="phone">Address</h5>
+        <p>Addis Ababa, Ethiopia</p>
 
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!">Link 1</a>
-          </li>
-          <li>
-            <a href="#!">Link 2</a>
-          </li>
-          <li>
-            <a href="#!">Link 3</a>
-          </li>
-          <li>
-            <a href="#!">Link 4</a>
-          </li>
-        </ul>
+        <a href=""> <i class="fab fa-facebook fa-2x"></i></a>
+        <a href="" class="ic"> <i class="fab fa-instagram fa-2x"></i></a>
+        <a href="" class="ic"> <i class="fab fa-telegram fa-2x"></i></a>
+
+       
+       
+       
+
+
+       
+
+        
 
       </div>
       
@@ -190,7 +193,7 @@
     <div class="row rowcopy">
       <div class="col-md-12  text-center">
         <div class="footer-copyright text-center py-3 confoot2">© 2020 Copyright:
-          <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+          <a href="https://mdbootstrap.com/"> All Rights Reserved</a>
         </div>
       </div>
 
@@ -199,7 +202,6 @@
   </div>
  
 </footer>
-
 
 
     
