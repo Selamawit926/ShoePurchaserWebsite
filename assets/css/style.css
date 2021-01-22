@@ -1,10 +1,15 @@
 body{
     font-family: 'Didact Gothic', sans-serif;
+    overflow-x: hidden;
 }
 
-.con3{
+/* .con3{
     margin: 0%;
-}
+} */
+
+/* .jimb{
+    margin: 0%;
+} */
 
 .confoot{
     background-color:  rgb(28, 11, 66);
@@ -144,4 +149,96 @@ a:hover{
 .shoe-icon{
     width: 50px;
     height: 50px;
+}
+.conabout{
+    margin-top: 40px;
+}
+.shoes{
+    height: 400px;
+    width: 500px;
+    
+}
+
+.colabout{
+    /* background-color: aqua; */
+    width: 700px;
+    height: 500px;
+}
+.colabout h1{
+    text-align: center;
+    font-size: 50px;
+}
+.colabout p{
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.colimg{
+    /* background-color: rgb(25, 0, 255); */
+}
+
+.rowabout{
+    margin-top: 70px;
+    text-align: center;
+    /* background-color: blueviolet; */
+   
+}
+
+.rowfacts{
+    margin-top: 200px;
+}
+
+.row8 h1{
+    margin-top: 80px;
+    margin-left: 30px;
+    font-size: 50px;
+}
+
+.colteam {
+    font-size: 40px;
+    /* background-color: brown; */
+    
+}
+
+.imgteam{
+    width: 200px;
+    height: 300px;
+
+}
+
+.rowteam{
+    margin-left: 140px;
+}
+.rowform{
+    /* background-color: brown; */
+}
+.colcontact{
+    margin-left: 60px;
+}
+.form-group{
+    width: 400px;
+}
+
+#comment{
+    height: 150px;
+}
+
+.submit{
+    width: 400px;
+    
+}
+#contactus{
+    margin-left: 60px;
+    font-size: 60px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.col1{
+    /* margin-left: 10px; */
+}
+
+.form-control{
+    width: 300px;
 }
